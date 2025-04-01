@@ -1,3 +1,9 @@
+import ProfileSettings from "./_component/Profile";
+
 export default function HomePage() {
-	return <div>Main page</div>;
+	return (
+		<main>
+			<ProfileSettings />
+		</main>
+	);
 }
